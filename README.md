@@ -43,3 +43,4 @@ Parameters for the synaptic and H-currents are taken from Sharp et. al, 1996 pap
 18.	Emi: Reversal potential of the neuromodulatory current (mV)
 
 
+![](https://github.com/eomorozova/half_center_oscillator_rtxi_module/blob/main/HCO_example.png)
