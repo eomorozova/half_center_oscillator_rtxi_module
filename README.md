@@ -1,5 +1,6 @@
 # half_center_oscillator_rtxi_module
 
+
 This is a module for [RTXI](http://rtxi.org/) that creates a half-center oscillator circuit out of two neurons, by connecting them with artificial reciprocal inhibitory synapses and adding hyperpolarization-activated inward currents. This module also simulates negative leak current to counteract the leak induced by the electrode penetration. It also simulated neuromodlatory cirrent (IMI), with the votage dependence similar to the one of NMDA current.
 
 Synaptic current is given by the following equations:
@@ -39,4 +40,5 @@ Parameters for the synaptic and H-currents are taken from Sharp et. al, 1996 pap
 16.	V_half_h: Half-activation voltage of H-current (mV)
 17.	Gmi: Maximal conductance of the neuromodulatory current (nS)
 18.	Emi: Reversal potential of the neuromodulatory current (mV)
+
 
