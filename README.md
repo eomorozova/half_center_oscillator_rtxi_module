@@ -6,7 +6,7 @@ Synaptic current is given by the following equations:
 
 Isyn=gsyn∙s(Vpre)∙(Vpost-Esyn);   (1-s∞ )∙ds/dt=(s∞-s)/τs 
 
-Hyperpolarization-activated inward current is given by the following equations:
+Hyperpolarization-activated inward current (H-current) is given by the following equations:
 
 IH=gH∙r(V)∙(V-EH); 	dr/dt=(r∞-r)/τr
 
@@ -29,18 +29,14 @@ Parameters for the synaptic and H-currents are taken from Sharp et. al, 1996 pap
 2.	membrane gleak1: leak conductance (nS) for the 1st neuron
 3.	membrane Eleak2: Reversal potential of the leak current (mV) for the 2nd neuron
 4.	membrane gleak2: leak conductance (nS) for the 2nd neuron
-5.	gH0 : Maximal conductance of hyperpolarization-activated inward current (H-current)
-6.	gsyn0: Maximal conductance of synaptic current
-7.	tau IH0: time constant for H-current
-8.	tau Isyn0: time constant for synaptic current
-9.	Q10 gH: temperature coefficient for H-current conductance
-10.	Q10 gsyn: temperature coefficient for synaptic current conductance
-11.	Q10 tauH: temperature coefficient for the time constant of H-current
-12.	Q10 tausyn: temperature coefficient for the time constant of synaptic current
-13.	EH: reversal potential of H-current (mV)
-14.	Esyn: reversal potential of synaptic current (mV)
-15.	V_half: Half-activation voltage of synaptic current (synaptic threshold voltage)
-16.	V_half_h: Half-activation voltage of H-current
-17.	Gmi: Maximal conductance of the neuromodulatory current
-18.	Emi: reversal potential of the neuromodulatory current
+5.	gH : Maximal conductance of H-current (nS)
+6.	gsyn: Maximal conductance of synaptic current (nS)
+7.	tauH: Time constant for H-current (msec)
+8.	tauSyn: Time constant for synaptic current (msec)
+13.	EH: Reversal potential of H-current (mV)
+14.	Esyn: Reversal potential of synaptic current (mV)
+15.	V_half: Half-activation voltage of synaptic current (mV)
+16.	V_half_h: Half-activation voltage of H-current (mV)
+17.	Gmi: Maximal conductance of the neuromodulatory current (nS)
+18.	Emi: Reversal potential of the neuromodulatory current (mV)
 
