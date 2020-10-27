@@ -2,7 +2,7 @@
 
 ![](https://github.com/eomorozova/half_center_oscillator_rtxi_module/blob/main/HCO_module.png)
 
-This is a module for [RTXI](http://rtxi.org/) that creates a half-center oscillator circuit out of two neurons, by connecting them with artificial reciprocal inhibitory synapses and adding hyperpolarization-activated inward currents. This module also simulates negative leak current to counteract the leak induced by the electrode penetration. It also simulated neuromodlatory cirrent (IMI), with the votage dependence similar to the one of NMDA current.
+This is a module for [RTXI](http://rtxi.org/) that creates a half-center oscillator circuit out of two neurons, by connecting them with artificial reciprocal inhibitory synapses and adding hyperpolarization-activated inward currents (based on Sharp et al. (1996)). This module also simulates negative leak current to counteract the leak induced by the electrode penetration. It also simulates neuromodlatory current (IMI), based on Swensen et al. (2001).
 
 Synaptic current is given by the following equations:
 
