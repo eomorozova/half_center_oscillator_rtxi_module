@@ -16,7 +16,7 @@ Neuromodulatory current is given by the following equation:
 
 IMI=gMI∙m(V)∙(V-EMI); 	dmi/dt=(m∞-m)/τm
 
-Parameters for the synaptic and H-currents are taken from Sharp et. al, 1996 paper. Parameters for the neuromodulatory current, IMI, are taken from the Swensen et. al, 2001 paper. 
+Parameters for the synaptic and H-currents are taken from Sharp et. al, 1996 paper. Parameters for the neuromodulatory current, IMI, are taken from Swensen et. al, 2001 paper. 
 
 ## Inputs
 1.	input(0) -  “Vm1” : Membrane potential of the 1st neuron
